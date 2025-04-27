@@ -1,6 +1,7 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { RouterProvider, createMemoryRouter} from "react-router-dom";
+import { vi } from "vitest";
 import routes from "../routes";
 
 const router = createMemoryRouter(routes)
